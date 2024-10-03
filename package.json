@@ -1,0 +1,19 @@
+{
+  "name": "ProjetaBot",
+  "version": "0.0.1",
+  "description": "Um bot de automatomação de processos para whatsapp",
+  "main": "src/server.js",
+  "author": "Kevin Rodrigues",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "nodemon": "^3.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_8"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  }
+}
